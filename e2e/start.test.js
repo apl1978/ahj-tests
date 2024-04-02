@@ -14,7 +14,7 @@ describe('Page start', () => {
     page = await browser.newPage();
   });
 
-  test('test', async () => {
+  test('is body exists', async () => {
     await page.goto('http://localhost:8080');
 
     await page.waitForSelector('body');
