@@ -1,0 +1,25 @@
+.invalid {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
+
+.cards {
+    display: flex;
+    padding: 10px 0;
+}
+
+.card {
+	opacity: 0.3;	
+    width: 39px;
+    height: 25px;
+    margin-right: 4px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.active-card {
+	opacity: 1;	
+}
