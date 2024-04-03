@@ -10,6 +10,7 @@ cache: node_modules  # кеширование
 
 install:
   - npm install  # команда установки зависимостей
+  - node node_modules/puppeteer/install.mjs
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
